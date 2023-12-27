@@ -19,7 +19,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 69px;
+    padding-top: 100px;
 }
 .img {
     display: block;
@@ -28,8 +28,28 @@ body {
 }
 .img-box {
 	cursor: pointer;
-	transition: 0.8s;
+	transition: all 5s ease;
+	animation: rotate 60s linear infinite;
 }
-.img-box:hover {
-	transform: rotate(0.5turn)
+.text {
+	
+	font-size: 60px;
+	color: #bbff00;
+	cursor: default;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -7%;
+}
+@keyframes rotate {
+	from {
+	  transform: rotate(360deg);
+	}
+  }
+.active {
+	position: absolute;
+	margin-top: 40%;
+	margin-left: 70%;
+	transition: 10s;
+	text-align: center;
+	cursor: pointer;
 }
