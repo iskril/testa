@@ -32,13 +32,16 @@ body {
 	animation: rotate 60s linear infinite;
 }
 .text {
-	
 	font-size: 60px;
 	color: #bbff00;
 	cursor: default;
 	font-weight: bold;
 	text-align: center;
 	margin-top: -7%;
+}
+.text:hover {
+	transition: 0.3s;
+	color: #0051ff;
 }
 @keyframes rotate {
 	from {
