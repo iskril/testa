@@ -6,5 +6,5 @@ img.addEventListener('click', () => {
     text.classList.add('active')
 })
 text.addEventListener('click', () => {
-    text.innerHTML = 'а что так можно было?';
+    text.innerHTML = 'А что, так можно было?';
 })
